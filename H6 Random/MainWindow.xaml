@@ -7,6 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <Button x:Name="CorrectKnop" Content="Correct" HorizontalAlignment="Left" Height="36" Margin="39,228,0,0" VerticalAlignment="Top" Width="138" Click="CorrectKnop_Click"/>
+        <Button x:Name="WrongKnop" Content="Wrong" HorizontalAlignment="Left" Height="36" Margin="333,228,0,0" VerticalAlignment="Top" Width="138" Click="WrongKnop_Click"/>
+        <TextBlock HorizontalAlignment="Left" Height="24" Margin="48,87,0,0" TextWrapping="Wrap" Text="Computer geusses that your age is:" VerticalAlignment="Top" Width="259"/>
+        <Label x:Name="GuessLabel" Content="" HorizontalAlignment="Left" Height="29" Margin="220,170,0,0" VerticalAlignment="Top" Width="87"/>
+
     </Grid>
 </Window>
